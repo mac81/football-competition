@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ecf0f1;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-main {
+  background: linear-gradient(to bottom right, #c0392b, #e74c3c);
+}
+
+.nav-main ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-main ul li {
+}
+
+.nav-main ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px 20px;
+  color: rgba(255, 255, 255, 0.87);
+  border-top: 3px solid transparent;
+}
+
+.nav-main ul li a:hover {
+  border-top: 3px solid #2c3e50;
+}
